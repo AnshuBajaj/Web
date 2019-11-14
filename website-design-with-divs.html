@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+   
+ <title>CSS: Website Design with DIVs</title>
+    
+ 
+   <style>
+	
+  #header  {
+		  background-color:#28BADF;
+		  color:white;
+		  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		  text-align:center;
+		  padding:15px;
+	  }
+	  
+
+#navigation {
+		  line-height:30px;
+		  background-color:#eeeeee;
+		  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		  height:800px;
+		  width:100px;
+		  float:left;
+		  padding:15px; 
+	  }
+	  
+
+#section {
+		  width:900px;
+		  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		  float:left;
+		  padding:20px; 
+	  }
+	  
+
+#section1 {
+	 line-height:30px;
+		  background-color:#eeeeee;
+		  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		  height:300px;
+		  width:100px;
+		  float:right;
+		  padding:15px;	 
+	  }
+
+
+#footer {
+		  background-color:black;
+		  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		  color:white;
+		  clear:both;
+		  text-align:center;
+		  padding:5px; 
+	  }
+	
+
+.abc{
+	width:30%; height:35%;
+} 
+
+ </style>
+    
+  </head>
+  
+ 
+ <body>
+  
+   
+ <div id="header">
+      <h1>Web Developers Course</h1> </div>
+  
+  
+    <div id="navigation">
+      <a href="#">HTML</a><br>
+      <a href="#">CSS</a><br>
+      <a href="#">PHP</a><br>
+    </div>
+ 
+
+
+
+<div id="section1">
+
+   <marquee behavior="scroll" direction="down">
+    <a href="https://www.rapidtables.com/web/html/link/html-image-link.html"><img src="data:image/jpeg;base64,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">
+  </a></marquee>  </div>
+ 
+
+
+
+
+
+
+
+
+   
+    <div id="section">
+    <h1>CSS</h1>
+ <hr>     <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=20% , initial-scale=0.1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide abc" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="ms-dhoni-international-cricket-player-pixel-art-1-joe-hamilton.jpg" alt="Los Angeles" >
+      </div>
+
+      <div class="item">
+        <img src="maxresdefault.jpg" alt="Chicago">
+      </div>
+    
+      <div class="item">
+        <img src="download.jpg" alt="New york" >
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div> </div>
+   
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ <div id="footer">
+      Copyright &copy; R.L. Adams
+    </div>
+  
+<table border=1  width=20%><tbody><tr><th colspan="2" style="text-align:center;font-size:125%;font-weight:bold;font-size: 100%;"><div style="display:inline-block; font-size:130%;" class="fn">A. P. J. Abdul Kalam</div></th></tr><tr><td colspan="2" style="text-align:center"><a href="/wiki/File:The_former_President,_Dr._A.P.J._Abdul_Kalam_delivering_key_note_address_on_%22Strength_Respects_Strength%22,_at_the_5th_Admiral_A.K._Chatterji_Memorial_Lecture,_in_Kolkata_on_April_11,_2015.jpg" class="image"><img alt="The former President, Dr. A.P.J. Abdul Kalam delivering key note address on &quot;Strength Respects Strength&quot;, at the 5th Admiral A.K. Chatterji Memorial Lecture, in Kolkata on April 11, 2015.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/The_former_President%2C_Dr._A.P.J._Abdul_Kalam_delivering_key_note_address_on_%22Strength_Respects_Strength%22%2C_at_the_5th_Admiral_A.K._Chatterji_Memorial_Lecture%2C_in_Kolkata_on_April_11%2C_2015.jpg/220px-thumbnail.jpg" decoding="async" width="220" height="243" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/The_former_President%2C_Dr._A.P.J._Abdul_Kalam_delivering_key_note_address_on_%22Strength_Respects_Strength%22%2C_at_the_5th_Admiral_A.K._Chatterji_Memorial_Lecture%2C_in_Kolkata_on_April_11%2C_2015.jpg/330px-thumbnail.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7c/The_former_President%2C_Dr._A.P.J._Abdul_Kalam_delivering_key_note_address_on_%22Strength_Respects_Strength%22%2C_at_the_5th_Admiral_A.K._Chatterji_Memorial_Lecture%2C_in_Kolkata_on_April_11%2C_2015.jpg/440px-thumbnail.jpg 2x" data-file-width="1866" data-file-height="2064"></a></td></tr><tr><td colspan="2" style="text-align:center"></td></tr><tr><th colspan="2" style="text-align:center;background:lavender;line-height:normal;padding:0.2em 0.2em">11th <a href="/wiki/President_of_India" title="President of India">President of India</a></th></tr><tr><td colspan="2" style="text-align:center;border-bottom:none"><span class="nowrap"><b>In office</b></span><br>25 July 2002&nbsp;– 25 July 2007</td></tr><tr><th scope="row" style="text-align:left"><span class="nowrap">Prime Minister</span></th><td><a href="/wiki/Atal_Bihari_Vajpayee" title="Atal Bihari Vajpayee">Atal Bihari Vajpayee</a><br><a href="/wiki/Manmohan_Singh" title="Manmohan Singh">Manmohan Singh</a></td></tr><tr><th scope="row" style="text-align:left"><span class="nowrap">Vice President</span></th><td><a href="/wiki/Krishan_Kant" title="Krishan Kant">Krishan Kant</a><br><a href="/wiki/Bhairon_Singh_Shekhawat" title="Bhairon Singh Shekhawat">Bhairon Singh Shekhawat</a></td></tr><tr><th scope="row" style="text-align:left"><span class="nowrap">Preceded by</span></th><td><a href="/wiki/K._R._Narayanan" class="mw-redirect" title="K. R. Narayanan">K. R. Narayanan</a></td></tr><tr><th scope="row" style="text-align:left"><span class="nowrap">Succeeded by</span></th><td><a href="/wiki/Pratibha_Patil" title="Pratibha Patil">Pratibha Patil</a></td></tr><tr style="display:none"><td colspan="2">
+</td></tr><tr><th colspan="2" style="text-align:center;background:lavender">Personal details</th></tr><tr><th scope="row">Born</th><td><div style="display:inline" class="nickname">Avul Pakir Jainulabdeen Abdul Kalam</div><br><span style="display:none">(<span class="bday">1931-10-15</span>)</span>15 October 1931<br><a href="/wiki/Rameswaram" title="Rameswaram">Rameswaram</a>, <a href="/wiki/Madras_Presidency" title="Madras Presidency">Madras Presidency</a>, <a href="/wiki/British_Raj" title="British Raj">British India</a><br><span style="font-size:85%;">(now in <a href="/wiki/Ramanathapuram_district" title="Ramanathapuram district">Ramanathapuram</a>, <a href="/wiki/Tamil_Nadu" title="Tamil Nadu">Tamil Nadu</a>, India)</span></td></tr><tr><th scope="row">Died</th><td>27 July 2015<span style="display:none">(2015-07-27)</span> (aged&nbsp;83)<br><a href="/wiki/Shillong" title="Shillong">Shillong</a>, <a href="/wiki/Meghalaya" title="Meghalaya">Meghalaya</a>, India</td></tr><tr><th scope="row">Resting place</th><td class="label"><a href="/w/index.php?title=Dr._A._P._J._Abdul_Kalam_National_Memorial&amp;action=edit&amp;redlink=1" class="new" title="Dr. A. P. J. Abdul Kalam National Memorial (page does not exist)">Dr. A. P. J. Abdul Kalam National Memorial</a></td></tr><tr><th scope="row">Nationality</th><td>Indian</td></tr><tr><th scope="row"><a href="/wiki/Alma_mater" title="Alma mater">Alma mater</a></th><td><a href="/wiki/St._Joseph%27s_College,_Tiruchirappalli" class="mw-redirect" title="St. Joseph's College, Tiruchirappalli">St. Joseph's College, Tiruchirappalli</a><br><a href="/wiki/Madras_Institute_of_Technology" title="Madras Institute of Technology">Madras Institute of Technology</a></td></tr><tr><th scope="row">Profession</th><td><div class="hlist hlist-separated"><ul><li><a href="/wiki/Aerospace_engineering" title="Aerospace engineering">Aerospace scientist</a></li><li>Author</li></ul></div></td></tr><tr><th scope="row">Awards</th><td><a href="/wiki/Padma_Bhushan" title="Padma Bhushan">Padma Bhushan</a> (1981) <br> <a href="/wiki/Padma_Vibhushan" title="Padma Vibhushan">Padma Vibhushan</a> (1990) <br> <a href="/wiki/Bharat_Ratna" title="Bharat Ratna">Bharat Ratna</a> (1997)<br><a href="/wiki/Hoover_Medal" title="Hoover Medal">Hoover Medal</a> (2009)<br><a href="/wiki/National_Space_Society#NSS_Von_Braun_Award" title="National Space Society">NSS Von Braun Award</a> (2013)</td></tr><tr><th scope="row">Notable work(s)</th><td><i><a href="/wiki/Wings_of_Fire" title="Wings of Fire">Wings of Fire</a></i>, <i><a href="/wiki/India_2020" title="India 2020">India 2020</a></i>, <i><a href="/wiki/Ignited_Minds" title="Ignited Minds">Ignited Minds</a></i>, <i><a href="/wiki/Indomitable_Spirit" title="Indomitable Spirit">Indomitable Spirit</a></i>, <i><a href="/wiki/Transcendence:_My_Spiritual_Experiences_with_Pramukh_Swamiji" title="Transcendence: My Spiritual Experiences with Pramukh Swamiji">Transcendence: My Spiritual Experiences with Pramukh Swamiji</a></i></td></tr><tr><th scope="row">Signature</th><td><a href="/wiki/File:Abdul_kalam_autograph.jpg" class="image" title="A. P. J. Abdul Kalam's signature"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Abdul_kalam_autograph.jpg/128px-Abdul_kalam_autograph.jpg" decoding="async" width="128" height="52" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Abdul_kalam_autograph.jpg/192px-Abdul_kalam_autograph.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Abdul_kalam_autograph.jpg/256px-Abdul_kalam_autograph.jpg 2x" data-file-width="319" data-file-height="129"></a></td></tr><tr><th scope="row">Website</th><td><span class="url"><a rel="nofollow" class="external text" href="http://www.abdulkalam.com">abdulkalam.com</a></span></td></tr><tr><td colspan="2" style="text-align:center"></td></tr><tr><td colspan="2" style="text-align:center"><b>Scientific career</b></td></tr><tr><th scope="row">Fields</th><td class="category"><a href="/wiki/Aerospace_Engineering" class="mw-redirect" title="Aerospace Engineering">Aerospace Engineering</a></td></tr><tr><th scope="row">Institutions</th><td><a href="/wiki/Defence_Research_and_Development_Organisation" title="Defence Research and Development Organisation">Defence Research and Development Organisation</a><br><a href="/wiki/Indian_Space_Research_Organisation" title="Indian Space Research Organisation">Indian Space Research Organisation</a></td></tr><tr style="display:none"><td colspan="2">
+</td></tr><tr><td colspan="2"></td></tr></tbody></table>
+  </body>
+
+</html>
+
+
